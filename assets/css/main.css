@@ -1230,6 +1230,20 @@ section,
   transform: scale(1.1);
 }
 
+.download-card {
+  background-color: var(--surface-color);
+  display: flex;
+  align-items: center;
+  padding-left: 2rem !important;
+  border-radius: 2rem;
+  padding: 0.5rem 0;
+}
+
+.download-card i {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
 /*--------------------------------------------------------------
 # Testimonials Section
 --------------------------------------------------------------*/
@@ -1738,11 +1752,4 @@ section,
 
 .contact .php-email-form button[type=submit]:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 25%);
-}
-
-/*--------------------------------------------------------------
-# Starter Section Section
---------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
 }
